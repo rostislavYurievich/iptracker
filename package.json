@@ -2,11 +2,7 @@
   "name": "ip_address_tracker",
   "version": "1.0.0",
   "type": "module",
-   "targets": {
-    "default": {
-      "publicUrl": "/iptracker/"
-    }
-  },
+  "publicUrl": "/iptracker",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html --dist-dir=build"
